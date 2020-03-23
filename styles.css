@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    background: blue;
+    color: #eee;
+}
+
+#app {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.stretch {
+    background: green;
+}
+
+.rest {
+    background: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#countNumber {
+    display: block;
+    font-size: 20rem;
+}
+
+button {
+    font-size: 2rem;
+}

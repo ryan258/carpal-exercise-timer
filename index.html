@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carpal Exercise Timer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div id="app">
-        <h1>Rep: <span id="countNumber">0</span></h1>
-        <h2><span id="secondsToGo">5</span> seconds to go</h2>
-        <button>Start</button>
-        <button>Stop</button>
+        <h1>Just <span id="countNumber">0</span> More to Go!</h1>
+        <h2 id="message">Motivational Message Here</h2>
+        <h3><span id="secondsToGo">5</span> seconds to go</h3>
+        <button id="startButton" onclick=startCounter()>Start</button>
+        <button id="stopButton">Stop</button>
     </div>
     <script src="./script.js"></script>
 </body>
